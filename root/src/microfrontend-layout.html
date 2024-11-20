@@ -1,0 +1,32 @@
+<single-spa-router>
+  <main>
+    <!-- Halaman Utama -->
+    <route path="/">
+      <application name="@learning/learning-appBar"></application>
+      <application name="@learning/learning-mainBody"></application>
+      <application name="@learning/learning-footerBody"></application>
+    </route>
+
+
+    <!-- Halaman Product -->
+    <route path="/home">
+      <application name="@learning/learning-homePage"></application>
+    </route>
+    
+    <!-- Halaman Product -->
+    <route path="/product">
+      <application name="@learning/learning-productPage"></application>
+    </route>
+  </main>
+</single-spa-router>
+
+
+<!-- <single-spa-router>
+  <main>
+    <route default>
+      <application name="@learning/learning-appBar"></application>
+      <application name="@learning/learning-mainBody"></application>
+      <application name="@learning/learning-footerBody"></application>
+    </route>
+  </main>
+</single-spa-router> -->
